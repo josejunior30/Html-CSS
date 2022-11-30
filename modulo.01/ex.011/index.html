@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="300x300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="700x700.jpg" type="image/jpg">
+        <img src="1000x1000.jpg" alt="imagem flexivel">
+    </picture>  
+    <h1>Reproduzindo Audios </h1>
+    <p>vamos aprender</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/olhosabertos.mp3" type="audio/meg">
+        <source src="midia/olhosabertos.mp3" type="audio/ogg">
+    </audio>
+</body>
+</html>
