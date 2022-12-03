@@ -1,5 +1,6 @@
 @charset "UTF-8";  
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Zen+Dots&display=swap');
 
 *{
     margin: 0px;
@@ -36,9 +37,11 @@ header{
 header h1{
     font-size: 2.5em;
     font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 6px 0px rgba(0, 0, 0, 0.452);
 }
 header p{
     margin-top: 20px;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.473);
 }
     
 nav{
@@ -59,6 +62,7 @@ nav  a:hover{
 article h2{
     
     background-image: linear-gradient(to right ,var(--cor2) , white);
+    font-family: 'Zen Dots', 'cursive';
 }
 
 article h3{
@@ -73,10 +77,19 @@ article a{
     color: var(--cor4);
     font-weight: bolder;
 }
+article p{
+    text-indent: 30px;
+    text-align: justify;
+}
 
 article a:hover{
     background-color: var(--cor4);
     color: var(--cor2);
+}
+picture#bug{
+    margin: auto;
+    max-width: 350px;
+    display: block;
 }
 
 section#s1{
@@ -102,11 +115,12 @@ section h1{
     color: white;
 }
 section#s1 p{
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
 section#s2 {
     padding-top: 10px;
+    text-indent: 30px;
 }
 
 ul{
@@ -135,4 +149,5 @@ footer a:hover{
 }
 footer p{
     padding: 10px;
+   
 }
