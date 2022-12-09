@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercicio Tabela</title>
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+        width: 900px;
+    }
+    th{
+        border: solid 1px black;
+        padding: 10px;
+
+    }
+    td{
+        border: solid 1px black;
+        padding: 10px;
+    }
+   
+    th:nth-child(even){
+        background-color: rgb(142, 156, 152);
+    }
+    div#container{
+      overflow-x: auto;
+    }
+</style>
+<body>
+    <h1>Excercicio Tabela</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, illum, sapiente pariatur reiciendis eum dolorum atque omnis quas delectus libero incidunt? Perspiciatis dignissimos eligendi tenetur necessitatibus aliquam sed sit ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum dignissimos repellendus id maiores molestias reprehenderit eveniet quia beatae. Id quos consequatur sapiente veniam placeat illo nulla rerum. Iste, incidunt culpa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit exercitationem voluptates ad, laboriosam omnis labore iste ipsam temporibus veritatis? Iste officia et modi quisquam, expedita repudiandae? Vero iure atque distinctio?</p>
+    <div id="container">
+        <table>
+        
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col"> Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Assistente</td>
+            </tr>
+            <tr>
+                <td>João Arthur</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Ana Clara</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Artista</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
