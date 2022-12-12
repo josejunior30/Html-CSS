@@ -8,8 +8,51 @@
 </head>
 <body>
     <h1>Exemplo de formulario</h1>
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Limpar">
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                
+                
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="">Maranhão</option>
+                    <option value="">Piauí</option>
+                    <option value="">Paraíba</option>
+                    <option value="">Pernambuco</option>
+                    <option value="">Alagoas</option>
+                </optgroup>
+
+                <optgroup label="Região Sul">
+                    <option value="">Paraná</option>
+                    <option value="">Santa Catarina</option>
+                    <option value="">Rio Grande do Sul</option>
+                </optgroup>
+                
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão <input type="text" name="prof" id="iprof" list="isprof"></label>
+            
+            <datalist id="isprof">
+                <Option>Assistente Social</Option>
+                <option>Medico</option>
+                <option>Enfeimeiro</option>
+                <option>Delegado</option>
+                <option>Segurança</option>
+            </datalist>
+
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
     
 </body>
 </html>
