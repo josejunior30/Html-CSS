@@ -9,7 +9,16 @@
 <body>
     <h1>Exemplod de Formulario</h1>
     <form action="cadastro.php">
-        <p><label for="int">Númeo 1</label>
+        <p><label for="in1">Númeo 1:</label>
+            <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.valvue)">
+        </p>
+        <p>
+            <label for="in2">Número 2:</label>
+            <input type="number" name="n2" id="in2" min="0" max="50" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="isom">Soma</label>
+        <output name="soma" id="isoma">0</output>        
         </p>
         <p>
             <input type="submit" value="Enviar">
