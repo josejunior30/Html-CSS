@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()"> menu </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Ps5</a></li>
+                <li><a href="#">Xbox one</a></li>
+                <li><a href="#">PC</a></li>
+                <li><a href="#">Nintendo</a></li>
+            </ul>
+        </menu>
+
+    </header>
+    <main>
+        <article>
+            <h2>Testanto Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat quibusdam ratione cupiditate aliquam laudantium dolores totam, commodi illo consequuntur, atque nulla magni optio maxime? Rem aperiam beatae voluptate aut. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores dicta asperiores voluptas atque aliquid beatae modi! Voluptas asperiores, ipsam at, similique corporis doloribus vel cumque, iusto odio adipisci deserunt alias. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam harum impedit minus corrupti vitae debitis sequi necessitatibus accusantium ad sapiente. Dignissimos repellat commodi sed in nobis, aut libero possimus vitae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus omnis porro itaque, laborum praesentium dicta, unde velit sint maxime, aliquid cum iure perspiciatis dolore rem? Laboriosam, praesentium? Praesentium, labore! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate eligendi nesciunt iusto omnis voluptates consequatur repellat optio esse hic odit? Blanditiis, mollitia unde! Facilis repellendus harum non natus voluptatem quisquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident repellendus quod, veniam consectetur vero dolore animi suscipit cupiditate fugit reprehenderit! Omnis quaerat at voluptatem fuga a eius maiores maxime id!</p>
+
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+    
+</body>
+</html>
